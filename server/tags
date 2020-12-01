@@ -1,0 +1,50 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+DATA_PORT	snake_server.c	14;"	d	file:
+MAX	sub_reactor.c	10;"	d	file:
+MAX	udp_epoll.c	110;"	d	file:
+add_event	udp_epoll.c	/^void add_event(int epoll_fd, int fd, int events) {$/;"	f
+add_event_ptr	udp_epoll.c	/^void add_event_ptr(int epoll_fd, int fd, int events, User *user) {$/;"	f
+add_task	pool.c	/^int add_task(Thread_pool *pool, void *(*run)(void *args), void *arg) {$/;"	f
+add_to_sub	udp_epoll.c	/^void add_to_sub(User *luser) {$/;"	f
+create_newwin	snake.c	/^WINDOW *create_newwin(int width, int height, int startx, int starty) {$/;"	f
+del_event	udp_epoll.c	/^void del_event(int epoll_fd, int fd, int events) {$/;"	f
+destroy_win	snake.c	/^void destroy_win(WINDOW *win) {$/;"	f
+draw	snake.c	/^void *draw(void *arg) {$/;"	f
+file	debug/makefile	/^file=$(wildcard *.c)$/;"	m
+file	makefile	/^file=$(wildcard *.c)$/;"	m
+find_sub	udp_epoll.c	/^int find_sub(User *user) {$/;"	f
+getnode	list.c	/^Node *getnode(int x, int y){$/;"	f
+gotoxy	snake.c	/^void gotoxy(int x, int y) {$/;"	f
+gotoxy_putc	snake.c	/^void gotoxy_putc(int x, int y, int c) {$/;"	f
+gotoxy_puts	snake.c	/^void gotoxy_puts(int x, int y, char* s) {$/;"	f
+init	list.c	/^List *init() {$/;"	f
+init_snake	snake.c	/^void init_snake() {$/;"	f
+initsnake	snake.c	/^void initsnake() {$/;"	f
+insert	list.c	/^void insert(List *l, int x, int y) {$/;"	f
+keydown	snake.c	/^void keydown(char key) { $/;"	f
+main	debug/test.c	/^int main(int argc, char *argv[]) {$/;"	f
+main	snake_server.c	/^int main(int argc, char **argv) {$/;"	f
+output	list.c	/^void output(List *l) {$/;"	f
+pop	list.c	/^void pop(List *l) {$/;"	f
+recv_user	sub_reactor.c	/^void *recv_user(void *arg) {$/;"	f
+snake	snake.c	/^Snake snake;$/;"	v
+snake_move	snake.c	/^void *snake_move(void *arg) {$/;"	f
+socket_create_udp	debug/udp_server.c	/^int socket_create_udp(int port) {$/;"	f
+socket_create_udp	udp_server.c	/^int socket_create_udp(int port) {$/;"	f
+sub_reactor	sub_reactor.c	/^void *sub_reactor(void *arg) {$/;"	f
+thread_is_alive	pool.c	/^int thread_is_alive(pthread_t thread) {$/;"	f
+thread_pool_clear	pool.c	/^void thread_pool_clear(Thread_pool *pool) {$/;"	f
+thread_pool_init	pool.c	/^void thread_pool_init(Thread_pool *pool) {$/;"	f
+thread_run	pool.c	/^void *thread_run(void *arg) {$/;"	f
+udp_accept	udp_epoll.c	/^int udp_accept(int epoll_fd, int fd, User *user) {$/;"	f
+udp_connect	udp_epoll.c	/^int udp_connect (int epoll_fd, struct sockaddr_in *server) {$/;"	f
+udp_create_sock	udp_epoll.c	/^int udp_create_sock(int port) {$/;"	f
+user	snake_server.c	/^User *user;$/;"	v
+user_epollfd	snake_server.c	/^int user_epollfd;$/;"	v
+w_gotoxy_putc	snake.c	/^void w_gotoxy_putc(WINDOW *win, int x, int y, int c) {$/;"	f
+w_gotoxy_puts	snake.c	/^void w_gotoxy_puts(WINDOW *win, int x, int y, char *s) {$/;"	f

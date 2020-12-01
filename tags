@@ -1,0 +1,91 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+COLS	include/snake.h	28;"	d
+DATA_PORT	server/snake_server.c	12;"	d	file:
+DBG	include/head.h	38;"	d
+DBG	include/head.h	40;"	d
+DOWN	include/snake.h	22;"	d
+LIFT	include/snake.h	23;"	d
+LINES	include/snake.h	27;"	d
+List	include/list.h	/^typedef struct List{$/;"	s
+List	include/list.h	/^}List;$/;"	t	typeref:struct:List
+LogData	include/snake.h	/^typedef struct LogData{$/;"	s
+LogData	include/snake.h	/^}LogData;$/;"	t	typeref:struct:LogData
+Node	include/list.h	/^typedef struct Node{$/;"	s
+Node	include/list.h	/^}Node;$/;"	t	typeref:struct:Node
+RIGHT	include/snake.h	24;"	d
+SNAKE_MAX	include/snake.h	18;"	d
+SNAKE_SIZE	include/snake.h	25;"	d
+Snake	include/snake.h	/^typedef struct Snake {$/;"	s
+Snake	include/snake.h	/^}Snake;$/;"	t	typeref:struct:Snake
+UP	include/snake.h	21;"	d
+USER_MAX	include/snake.h	20;"	d
+User	include/snake.h	/^typedef struct User {$/;"	s
+User	include/snake.h	/^}User;$/;"	t	typeref:struct:User
+_HEAD_H	include/head.h	9;"	d
+_LIST_H	include/list.h	9;"	d
+_SNAKE_H	include/snake.h	9;"	d
+_UDP_EPOLL_H	include/udp_epoll.h	9;"	d
+add_event	server/udp_epoll.c	/^void add_event(int epoll_fd, int fd, int events) {$/;"	f
+addr	include/snake.h	/^    struct sockaddr_in addr;$/;"	m	struct:LogData	typeref:struct:LogData::sockaddr_in
+addr	include/snake.h	/^    struct sockaddr_in addr;$/;"	m	struct:User	typeref:struct:User::sockaddr_in
+create_newwin	server/snake.c	/^WINDOW *create_newwin(int width, int height, int startx, int starty) {$/;"	f
+del_event	server/udp_epoll.c	/^void del_event(int epoll_fd, int fd, int events) {$/;"	f
+destroy_win	server/snake.c	/^void destroy_win(WINDOW *win) {$/;"	f
+die	include/snake.h	/^    int die;$/;"	m	struct:Snake
+draw	server/snake.c	/^void *draw(void *arg) {$/;"	f
+file	client/makefile	/^file=$(wildcard *.c)$/;"	m
+file	server/debug/makefile	/^file=$(wildcard *.c)$/;"	m
+file	server/makefile	/^file=$(wildcard *.c)$/;"	m
+flag	include/snake.h	/^    int flag;\/\/是否在线$/;"	m	struct:User
+fraction	include/snake.h	/^    int fraction;$/;"	m	struct:Snake
+getnode	include/list.c	/^Node *getnode(int x, int y){$/;"	f
+getnode	server/list.c	/^Node *getnode(int x, int y){$/;"	f
+gotoxy	server/snake.c	/^void gotoxy(int x, int y) {$/;"	f
+gotoxy_putc	server/snake.c	/^void gotoxy_putc(int x, int y, int c) {$/;"	f
+gotoxy_puts	server/snake.c	/^void gotoxy_puts(int x, int y, char* s) {$/;"	f
+head	include/list.h	/^    Node *head;$/;"	m	struct:List
+init	include/list.c	/^List *init() {$/;"	f
+init	server/list.c	/^List *init() {$/;"	f
+init_snake	server/snake.c	/^void init_snake() {$/;"	f
+initsnake	server/snake.c	/^void initsnake() {$/;"	f
+insert	include/list.c	/^void insert(List *l, int x, int y) {$/;"	f
+insert	server/list.c	/^void insert(List *l, int x, int y) {$/;"	f
+key	include/snake.h	/^    char key;$/;"	m	struct:Snake
+keydown	server/snake.c	/^void keydown(char key) { $/;"	f
+l	include/snake.h	/^    List *l;$/;"	m	struct:Snake
+len	include/list.h	/^    int len;$/;"	m	struct:List
+main	client/snake_client.c	/^int main(int argc, char **argv) {$/;"	f
+main	server/debug/test.c	/^int main(int argc, char *argv[]) {$/;"	f
+main	server/snake_server.c	/^int main(int argc, char **argv) {$/;"	f
+main	test.c	/^int main(int argc, char **argv) {$/;"	f
+name	include/snake.h	/^    char name[20];$/;"	m	struct:LogData
+name	include/snake.h	/^    char name[25];$/;"	m	struct:User
+next	include/list.h	/^    struct Node *next;$/;"	m	struct:Node	typeref:struct:Node::Node
+output	include/list.c	/^void output(List *l) {$/;"	f
+output	server/list.c	/^void output(List *l) {$/;"	f
+pop	include/list.c	/^void pop(List *l) {$/;"	f
+pop	server/list.c	/^void pop(List *l) {$/;"	f
+snake	include/snake.h	/^    Snake snake;	$/;"	m	struct:User
+snake	server/snake.c	/^Snake snake;$/;"	v
+snake_move	server/snake.c	/^void *snake_move(void *arg) {$/;"	f
+socket_create_udp	server/debug/udp_server.c	/^int socket_create_udp(int port) {$/;"	f
+socket_create_udp	server/udp_server.c	/^int socket_create_udp(int port) {$/;"	f
+tail	include/list.h	/^    Node *tail;$/;"	m	struct:List
+team	server/snake_server.c	/^User *team;$/;"	v
+udp_accept	server/udp_epoll.c	/^int udp_accept(int epoll_fd, int fd) {$/;"	f
+udp_client	test.c	/^int udp_client(char *ip, int port) {$/;"	f
+udp_connect	server/udp_epoll.c	/^int udp_connect (int epoll_fd, struct sockaddr_in *server) {$/;"	f
+udp_create_sock	server/udp_epoll.c	/^int udp_create_sock(int port) {$/;"	f
+w_gotoxy_putc	server/snake.c	/^void w_gotoxy_putc(WINDOW *win, int x, int y, int c) {$/;"	f
+w_gotoxy_puts	server/snake.c	/^void w_gotoxy_puts(WINDOW *win, int x, int y, char *s) {$/;"	f
+wmessage	include/snake.h	/^WINDOW *wsnake, *wmessage, *wscore, *wwrite;$/;"	v
+wscore	include/snake.h	/^WINDOW *wsnake, *wmessage, *wscore, *wwrite;$/;"	v
+wsnake	include/snake.h	/^WINDOW *wsnake, *wmessage, *wscore, *wwrite;$/;"	v
+wwrite	include/snake.h	/^WINDOW *wsnake, *wmessage, *wscore, *wwrite;$/;"	v
+x	include/list.h	/^    int x;$/;"	m	struct:Node
+y	include/list.h	/^    int y;$/;"	m	struct:Node
